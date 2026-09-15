@@ -7,8 +7,8 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/dept
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: 123456
+    username: 
+    password: 
   servlet:
     multipart:
       #最大单个文件大小
@@ -36,5 +36,5 @@ logging:
 aliyun:
   oss:
     endpoint: https://oss-cn-hangzhou.aliyuncs.com
-    bucketName: wan123456
+    bucketName: 
     region: cn-hangzhou
